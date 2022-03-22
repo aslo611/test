@@ -1,0 +1,39 @@
+<meta charset="UTF-8"/>
+<h1>Descripción de como se instaló el servidor web</h1>
+
+<h2>Punto A</h2>
+
+<h4>Se instala el servidor CentOS y se crea la llave pública privada a través de los siguientes comandos:</h4>
+<h4>Creo la llave a través del siguiente comando:</h4>
+<h4>ssh-keygen -t rsa -b 4096</h4>
+<h4>Edito el archivo  /etc/ssh/sshd_config con vi</h4>
+<h4>Y se descomentan y editan las líneas siguientes:</h4>
+<h4>Reiniciamos servicio SSH</h4>
+<h4>systemctl restart sshd</h4>
+
+<h2>Punto B</h2>
+
+<h4></h4>
+<h3></h3>
+<h2></h2>
+
+<h3>¿Qué Sistema Operativo tiene la máquina?</h3>
+<h4>CentOS Stream release 8</h4>
+<h4>Comando utilizado: cat /etc/redhat-release</h4>
+
+<h3>Espacio en Disco</h3>
+<h4>Disponible 37%</h4>
+<h4>Comando utilizado: df -h</h4>
+
+<h3>Cantidad de memoria RAM</h3>
+<h4>Comando utilizado: free -h</h4>
+
+<h3>Versión de Kernel</h3>
+<h4>Comando utilizado: uname -a</h4>
+
+<h3>Características de CPU</h3>
+<h4>Comando utilizado: cat /proc/cpuinfo</h4>
+
+<h3>IP Privada</h3>
+<h4>Comando utilizado: ifconfig</h4>
+
